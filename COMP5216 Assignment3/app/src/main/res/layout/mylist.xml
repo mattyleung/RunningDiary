@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:layout_marginBottom="200dp"
+    android:weightSum="1">
+
+
+
+
+
+    <TextView
+        android:layout_weight="0.2"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#4d4d4d"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_weight="0.1"
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12dp"
+        android:padding="2dp"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#4d4d4d"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_weight="0.3"
+        android:textSize="12dp"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#4d4d4d"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_weight="0.2"
+        android:textSize="12dp"
+        android:id="@+id/pace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#4d4d4d"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_weight="0.15"
+        android:id="@+id/speed"
+        android:textSize="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="2dp"
+        android:text="Medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#4d4d4d"
+        android:textStyle="bold" />
+
+</LinearLayout>

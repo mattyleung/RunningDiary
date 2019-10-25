@@ -1,0 +1,224 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:ignore="MissingDefaultResource">
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        -->
+<!--        android:weightSum="8"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+
+
+
+
+
+<TableLayout
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:textColor="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textGrid"
+        android:text="Pace Calculator"
+        android:textSize="34sp"
+        android:textColor="@android:color/white"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="120dp"
+        />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:background="#508CDB"
+        android:minHeight="40dp"
+        android:weightSum="100">
+
+        <TextView
+
+
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:text="PACE CALCULATOR"
+            android:textStyle="bold"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow
+        android:background="#B8DCEC"
+        android:minHeight="70dp"
+        android:weightSum="100">
+
+
+        <TextView
+
+
+            android:layout_width="0dp"
+
+            android:layout_height="match_parent"
+            android:layout_weight="19"
+            android:background="#508CDB"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Time"
+            />
+
+
+        <EditText
+            android:id="@+id/hour"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+
+            android:background="#B8DCEC"
+
+            android:gravity="center"
+
+            android:hint="hours"
+            android:inputType="number"
+
+            />
+
+        <EditText
+            android:id="@+id/minutes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+
+
+            android:background="#B8DCEC"
+            android:gravity="center"
+            android:hint="mins"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/second"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+
+
+            android:background="#B8DCEC"
+            android:gravity="center"
+            android:hint="secs"
+            android:inputType="number" />
+
+
+    </TableRow>
+
+
+        <TableRow
+            android:minHeight="70dp"
+            android:background="#B8DCEC"
+            android:weightSum="100"
+            >
+
+            <TextView
+
+                android:text="Distance"
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:layout_weight="19"
+                android:background="#508CDB"
+                android:gravity="center"
+                android:textStyle="bold"
+
+                />
+
+            <EditText
+                android:id="@+id/distance"
+                android:layout_width="0dp"
+                android:layout_weight="40"
+                android:layout_height="match_parent"
+
+
+
+                android:background="#B8DCEC"
+                android:gravity="center"
+                android:hint="distance"
+                android:inputType="numberDecimal"
+
+                />
+
+
+            <Spinner
+                android:id="@+id/spinnerDistance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_vertical"
+
+                android:layout_weight="40"
+
+
+                android:spinnerMode="dropdown"
+
+                />
+
+
+        </TableRow>
+
+    <TableRow
+        android:minHeight="70dp"
+        android:background="#B8DCEC"
+        android:weightSum="100"
+        >
+        <TextView
+
+            android:text="Pace"
+            android:layout_width="0dp"
+            android:layout_weight="19"
+            android:layout_height="match_parent"
+            android:background="#508CDB"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/resultView"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="81"
+            android:layout_height="match_parent"
+            android:hint="Result"
+
+        />
+    </TableRow>
+
+</TableLayout>
+
+
+
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:text="Calculate result"
+        />
+
+
+
+</LinearLayout>

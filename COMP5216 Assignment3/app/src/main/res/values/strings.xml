@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+
+        <string-array name="distance_unit">
+            <item>Miles</item>
+            <item>Kilometers</item>
+            <item>Meters</item>
+            <item>Yards</item>
+        </string-array>
+</resources>
