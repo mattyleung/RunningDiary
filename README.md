@@ -7,7 +7,7 @@
 
 • Allow user to input distance and time to calculate pace and speed
 
-<img src="iamgeFolder/paceCalculator" width="50" height="50"/>
+<img src="iamgeFolder/paceCalculator.png" width="50" height="50"/>
 
 2. Running GPS tracker with maps and routes/direction
 
