@@ -1,16 +1,17 @@
 # RunningDiary
  a Running Diary mobile app has  features as the following:
  
-![alt text](https://i.imgur.com/8YJDbvm.png){:height="50%" width="50%"}
+<img src="iamgeFolder/MainPage.png" width="250">
 
 1. Pace calculator
 
 • Allow user to input distance and time to calculate pace and speed
 
-<img src="iamgeFolder/paceCalculator.png" width="100">
+<img src="iamgeFolder/paceCalculator.png" width="250">
 
 2. Running GPS tracker with maps and routes/direction
 
+<img src="iamgeFolder/gpsTimer.png" width="250">
 
 • Capture the distance per run via GPS coordinates or device location
 
@@ -20,6 +21,7 @@
 
 3. Running log: save and display a history of runs including weekly averages
 
+<img src="iamgeFolder/runningLog.png" width="250">
 
 • Capture historical run statistics e.g. distance, time, pace, speed
 
