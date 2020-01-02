@@ -7,6 +7,7 @@
 
 • Allow user to input distance and time to calculate pace and speed
 
+<a href="https://imgur.com/a/f9CLXs9"><img src="https://imgur.com/a/f9CLXs9" width="50" height="50"/></a>
 
 2. Running GPS tracker with maps and routes/direction
 
