@@ -1,6 +1,6 @@
 # RunningDiary
  a Running Diary mobile app has  features as the following:
- ![alt text](https://imgur.com/a/ryDqOr5.png)
+ ![alt text](https://i.imgur.com/a/ryDqOr5.png)
 1. Pace calculator
 
 • Allow user to input distance and time to calculate pace and speed
