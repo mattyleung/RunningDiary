@@ -1,7 +1,7 @@
 # RunningDiary
  a Running Diary mobile app has  features as the following:
  
-![alt text](https://i.imgur.com/AVvMFjy.png)
+![alt text](https://i.https://imgur.com/a/ryDqOr5.png)
 
 1. Pace calculator
 
